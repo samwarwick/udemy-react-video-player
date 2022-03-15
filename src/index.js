@@ -7,7 +7,6 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
-console.log("API KEY", process.env.API_KEY)
 
 // create component - HTML
 class App extends Component {
